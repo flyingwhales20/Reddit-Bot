@@ -1,7 +1,7 @@
-Organization: Florida Polytechnic University
-Section     : COP4963C.01
-Project Name: The Amazing Reddit Bot
-Authors     : Quentin Goss, Barry Glass, Brennan Lefler, Jesal Patel
+Organization: Florida Polytechnic University<br/>
+Section     : COP4935C.01<br/>
+Project Name: The Amazing Reddit Bot<br/>
+Authors     : Quentin Goss, Barry Glass, Brennan Lefler, Jesal Patel<br/>
 
 
 
