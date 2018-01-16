@@ -1,7 +1,3 @@
-# leopard_soup.py
-# Author: Quentin Goss, Barry Glass
-# Last Modified: 1/16/18
-
 from bs4 import BeautifulSoup # Parsing Source HTML
 import urllib.request # Opening Webpage
 
@@ -28,6 +24,19 @@ soup.prettify()# Makes the html readable
 
 # Find the content of the reddit review
 tail = soup.findAll("div",class_="md")# <div class="md">
+
 paw = tail[1]# The one we want is the second occurence.
              # We can navigate through the comments by incrementing tail.
-print(paw)
+            
+claws = paw.get_text()# Clean tags from the paw soup
+print(claws)
+
+#### Output #####
+# Writing claws to file
+furrl_name = "leopard.txt"
+furrl = open(furrl_name,"w")
+furrl.write(claws)
+furrl.close()
+
+
+
